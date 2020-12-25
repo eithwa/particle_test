@@ -1,0 +1,1 @@
+﻿opencv_world401d.lib(opencv_world401d.dll) : fatal error LNK1112: 模組電腦類型 'x64' 與目標電腦類型 'x86' 衝突
