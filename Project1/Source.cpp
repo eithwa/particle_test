@@ -23,7 +23,7 @@ void load_data(string& path, vector<Mat>& images) {
 }
 
 int main() {
-    string img_folder_path = "*.jpg";
+    string img_folder_path = "*.png";
     vector<Mat> images;
     load_data(img_folder_path, images);
 
@@ -99,7 +99,7 @@ int main() {
                 
             }
         }
-        imwrite("result.jpg", result);
+        imwrite("result.png", result);
         // imshow("fuc2k", result);
         // waitKey(0);
         // imshow("mediandst", mediandst);
